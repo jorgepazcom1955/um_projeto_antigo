@@ -1,0 +1,749 @@
+/* geral */
+
+html {
+    font-family: "Open sans", sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f4fa;
+    padding-top: 100px;
+}
+h1,
+h2,
+p {
+    margin: 0;
+    color: #666;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+
+/* header */
+
+#principal {
+    margin: 0;
+}
+
+
+/* hide on desktop */
+
+.nav-container .btn-menumobile {
+    display: none;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+
+/* nabar */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 180px;
+    height: 100px;
+    margin-top: 2px;
+    padding-left: 20px;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    padding-right: 15px;
+}
+
+.nav-container ul li {
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+.nav-container li a {
+    text-decoration: none;
+    color: #666;
+    transition: 1s;
+}
+
+.nav-container li a:hover {
+    color: #3381f3;
+}
+
+#main-banner {
+    background: url('../img/banner23.jpg') no-repeat;
+    background-size: contain;
+    background-position: 0 .55%;
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    text-align: center;
+    padding-top: 5em;
+}
+
+#box-h1 {
+    text-align: center;
+    padding-top: 27em;
+    color: #666;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+#box-p {
+    text-align: center;
+    padding-top: 10px;
+    color: #666;
+    font-size: 1.6em;
+}
+
+#campo-container .wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-container, ul,li a {
+    font-size: 18px;
+}
+
+.title-center {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.p-center {
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+#campo-container {
+    text-align: center;
+    padding: 5em 0;
+}
+
+#campo-container .p-center {
+    margin-bottom: 60px;
+}
+
+.servico-box {
+    display: inline-block;
+    width: 31%;
+    padding: 0 1%;
+    text-align: left;
+}
+
+.servico-box img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.servico-p {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+.servico-box h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.servico-box h4 a {
+    text-decoration: none;
+    color: #666;
+}
+
+
+/*grupo*/
+
+.grupo {
+    width: 100%;
+    float: left;
+    margin: 20px 8%;
+}
+
+.sobre {
+    width: 50%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2 {
+    margin-bottom: 25px;
+    padding-top: 5em;
+}
+
+.sobre img {
+    width: 50%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+
+.sobre p {
+    text-align: justify;
+}
+
+
+/* aside */
+
+.onde-estamos {
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #686565;
+}
+
+.onde-estamos h2 {
+    margin-bottom: 5px;
+    margin-top: 5em;
+    padding-bottom: 0.1em;
+}
+
+.onde-estamos iframe {
+    margin: 20px 0;
+    width: 400px;
+    height: 250px;
+}
+
+.contato-h2 {
+    margin-bottom: 5em;
+}
+
+.onde-estamos li {
+    color: #777;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.onde-estamos i {
+    margin-right: 5px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #666;
+    padding: 5em 0;
+    padding-bottom: 40px;
+    border-top: 5px solid #3381f3;
+    padding-left: 20px;
+}
+
+footer h2,
+footer p,
+footer a,
+footer span {
+    color: #D1D1D1;
+    font-size: 14px;
+}
+
+footer h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer {
+    width: 80%;
+}
+
+.company-footer h2 {
+    margin-top: 20px;
+}
+
+.company-footer h2,
+.company-footer p {
+    margin-bottom: 20px;
+}
+
+.footer-list li {
+    margin-bottom: 15px;
+}
+
+.footer-list a {
+    transition: 0.5s;
+}
+
+.footer-list a:hover {
+    color: #FFF;
+}
+
+.footer-list li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.articles-footer {
+    width: 80%;
+}
+
+.footer-list.footer-article-list span {
+    display: block;
+    float: none;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer-list li span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #B2B2B2;
+    text-align: center;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+#h2-footer {
+    margin-left: 2em;
+}
+
+#p-footer {
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 1024px) {
+    #logo {
+        position: absolute;
+        left: 50px;
+    }
+    .nav-container ul {
+        float: none;
+        text-align: center;
+        padding: 0;
+        padding-bottom: 2em;
+    }
+    .nav-container ul li {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: inline-block;
+        margin: 0 10px;
+        
+    }
+
+    .nav-container ul li a {
+        font-size: 1em;
+        padding-right: 25px; 
+    }
+
+    #box-h1 {
+        padding-top: 20em;
+    }
+    #box-p {
+        margin-left: 2em;
+        margin-right: 2em;
+        font-size: 1.6em;
+    }
+    #campo-container .wrapper,
+    .servico-box .wrapper,
+    .wrapper,
+    #box-h1 .wrapper #box-p .wrapper,
+    .wrapper {
+        max-width: 960px;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .servico-box {
+        display: inline-block;
+        width: 30%;
+        padding: 0 1%;
+        text-align: left;
+    }
+    .title-center {
+        padding-bottom: 0.6em;
+    }
+    .p-center {
+        text-align: center;
+        font-size: 1em;
+    }
+    .servico-box img {
+        width: 100%;
+        display: block;
+    }
+    h4 {
+        padding-bottom: .4em;
+    }
+    .servico-p {
+        text-align: left;
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+   .nav-container .btn-menumobile {
+        display: block !important;
+    }
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        height: 4em;
+    }
+    #logo {
+        left: 2em;
+        height: 2em;
+        width: 2em;
+        margin-top: 1em;
+        display: none;
+    }
+    .btn-menumobile {
+        display: block;
+        font-size: 1.75em;
+        color: #ccc;
+        position: absolute;
+        right: 1.5em;
+        top: .75em;
+    }
+    .nav-container ul {
+        position: relative;
+        top: 4em;
+        height: 3em;
+        line-height: 3em;
+        display: none;
+    }
+    .nav-container ul li {
+        display: block;
+        background-color: #fff;
+        margin: 0;
+        border-top: 1px solid #ccc;
+    }
+    .nav-container ul li a {
+        font-size: 1em;
+    }
+    .open {
+        display: block !important;
+    }
+    #main-banner, #box-1, #box-p {
+        margin-bottom: 1em;
+    }
+    #campo-container {
+        padding: 5em 0;
+    }
+    #campo-container .wrapper {
+        margin: 0;
+        padding-left: auto;
+        padding-right: auto;
+    }
+   
+    .servico-box {
+        width: 100%;
+    }
+
+    #box-h1, #box-p {
+        margin-top: 70px;
+    }
+    .video {
+        margin-right: 1em;
+        width: 28%;
+        padding: 0 1%;
+        padding-top: 6em;
+        width: 100%;
+    }
+    #p-footer {
+        margin-right: 6.4em;
+    }
+    .container .footer-box {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+   .nav-container .btn-menumobile {
+        display: block !important;
+    }
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        height: 4em;
+    }
+    #logo {
+        left: 2em;
+        height: 2em;
+        width: 2em;
+        margin-top: 1em;
+        display: none;
+    }
+    .btn-menumobile {
+        display: block;
+        font-size: 1.75em;
+        color: #ccc;
+        position: absolute;
+        right: 1.5em;
+        top: .75em;
+    }
+    .nav-container ul {
+        position: relative;
+        top: 4em;
+        height: 3em;
+        line-height: 3em;
+        display: none;
+    }
+    .nav-container ul li {
+        display: block;
+        background-color: #fff;
+        margin: 0;
+        border-top: 1px solid #ccc;
+    }
+    .nav-container ul li a {
+        font-size: 1em;
+    }
+    .open {
+        display: block !important;
+    }
+    #main-banner {
+        margin-top: 4em;
+    }
+    #campo-container {
+        padding: 5em 0;
+    }
+    #campo-container .wrapper {
+        margin: 0;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    #box-h1 {
+        padding-top: 13em;
+    }
+    #box-p {
+        font-size: 1.2em;
+    }
+    .servico-box {
+        width: 100%;
+    }
+    .video {
+        margin-right: 1em;
+        width: 28%;
+        padding: 0 1%;
+        padding-top: 6em;
+        width: 100%;
+    }
+    #p-footer {
+        margin-right: 6.4em;
+    }
+    .container .footer-box {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-container .btn-menumobile {
+        display: block !important;
+        display: none;
+    }
+
+     .nav-container ul {
+        position: relative;
+        top: 4em;
+        height: 3em;
+        line-height: 3em;
+        display: none;
+    }
+
+      .btn-menumobile {
+        display: block;
+        font-size: 1.75em;
+        color: #ccc;
+        position: absolute;
+        right: 1.5em;
+        top: .75em;
+    }
+
+     #logo {
+        left: 2em;
+        height: 2em;
+        width: 2em;
+        margin-top: 1em;
+        display: none;
+    }
+
+    #box-h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-top: 18em;
+    }
+    #box-p {
+        font-size: 1.2em;
+    }
+    .footer-bottom,
+    .wrapper {
+        padding-bottom: 2em;
+    }
+    .footer-bottom p {
+        padding-top: 1em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-container .btn-menumobile {
+        display: block !important;
+    }
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        height: 4em;
+    }
+    #logo {
+        left: 2em;
+        height: 2em;
+        width: 2em;
+        margin-top: 1em;
+        display: none;
+    }
+    .btn-menumobile {
+        display: block;
+        font-size: 1.75em;
+        color: #ccc;
+        position: absolute;
+        right: 1.5em;
+        top: .75em;
+    }
+    .nav-container ul {
+        position: relative;
+        top: 4em;
+        height: 3em;
+        line-height: 3em;
+        display: none;
+    }
+    .nav-container ul li {
+        display: block;
+        background-color: #fff;
+        margin: 0;
+        border-top: 1px solid #ccc;
+    }
+    .nav-container ul li a {
+        font-size: 1em;
+    }
+    .open {
+        display: block !important;
+    }
+    #main-banner {
+        margin-top: 4em;
+    }
+    #campo-container {
+        padding: 5em 0;
+    }
+    #campo-container .wrapper {
+        margin: 0;
+        padding-left: auto;
+        padding-right: auto;
+    }
+    #box-h1 {
+        padding-top: 13em;
+    }
+    #box-p {
+        font-size: 1.2em;
+    }
+    .servico-box {
+        width: 100%;
+    }
+    .video {
+        margin-right: 1em;
+        width: 28%;
+        padding: 0 1%;
+        padding-top: 6em;
+        text-align: center;
+    }
+    #p-footer {
+        margin-right: 6.4em;
+    }
+    .container .footer-box {
+        display: block;
+        width: 100%;
+    }
+}
